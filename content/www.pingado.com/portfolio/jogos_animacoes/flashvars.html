@@ -1,0 +1,10 @@
+<script>		    
+function myFunction() {
+document.getElementById("flashbox").innerHTML =  "<embed src='http://www.pingado.com/portfolio/jogos_animacoes/09trofeuFrango.swf?nome=" +  document.getElementById("Name").value + "' quality='high' pluginspage='http://www.macromedia.com/go/getflashplayer' type='application/x-shockwave-flash' width='675' height='225'>";
+}
+</script>
+
+<input type="text" id="Name" name="fname" value="FlashPoint"><br>
+<input type="button" value="Play" onclick="myFunction()" />
+<br><br>
+<div id="flashbox"></div>

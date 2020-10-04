@@ -1,0 +1,11 @@
+<script>		    
+function myFunction() {
+document.getElementById("flashbox").innerHTML =  "<embed src='http://bbb.globo.com/RealityShows/BBB2/Flash/geladeira_result.swf?resp=" +  document.getElementById("Name").value + "' quality='high' type='application/x-shockwave-flash' width='480' height='400'>";
+}
+</script>
+
+Expected Values: 5, 8, 10, 14, 16, 19 or 22<br>
+<input type="text" id="Name" name="fname"><br>
+<input type="button" value="Play" onclick="myFunction()" />
+<br><br>
+<div id="flashbox"></div>
